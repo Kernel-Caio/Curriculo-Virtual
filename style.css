@@ -1,0 +1,126 @@
+*{
+     background: white;
+}
+html{
+     border: 18px black solid;
+}
+
+body{
+     margin: 0;
+     padding: 0;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     border: 14px crimson solid;
+     box-sizing: border-box;
+}
+html,
+body{
+     height: max-content;
+}
+
+h3{
+     background: transparent;
+     margin-bottom: 30px;
+     font-weight: 900;
+     font-size: 23px;
+}
+
+p{
+     background: transparent;
+     color: white;
+}
+
+span{
+     color: black;
+     background: transparent;
+}
+
+header .titulo{
+     font-size: 26px;
+     margin-bottom: 100px;
+     font-weight: bold;
+}
+
+section{
+     align-self: center;
+     border: solid;
+     width: 550px;
+     border-radius: 50px;
+     background: crimson;
+     padding-bottom: 10px;
+     margin: 40px;
+}
+
+section a{
+     font-size: ;
+     text-decoration: none;
+     background: black;
+     color: white;
+     border: 2px white solid;
+     border-radius: 16px;
+     padding: 4px;
+     font-weight: 900;
+}
+
+section img{
+     background: transparent;
+     margin-bottom: 8px;
+}
+
+section a:hover{
+     border-color: black;
+     background: white;
+     color: black;
+     font-weight: 950;
+     font-size: 18px;
+     transition: all 350ms;
+}
+
+main .objetivo{
+     margin: 0 auto 40px auto ;
+     border: solid;
+     width: 550px;
+     border-radius: 8px;
+     background: crimson;
+     padding-bottom: 10px;
+}
+
+main .formacao{
+     margin: 0 auto 40px auto ;
+     border: solid;
+     width: 550px;
+     border-radius: 8px;
+     background: crimson;
+     padding-bottom: 10px;
+}
+
+main .experiencia{
+     margin: 0 auto 40px auto ;
+     border: solid;
+     width: 550px;
+     border-radius: 8px;
+     background: crimson;
+     padding-bottom: 10px;
+}
+
+main .experiencia #cliente{
+     color: #dbcdcd;
+     background: transparent;
+     font-weight: bold;
+}
+
+main .idiomas{
+     margin: 0 auto 40px auto ;
+     border: solid;
+     width: 550px;
+     border-radius: 8px;
+     background: crimson;
+     padding-bottom: 10px;
+}
+
+main .idiomas #linguas{
+     color: #dbcdcd;
+     background: transparent;
+     font-weight: bold;
+}
